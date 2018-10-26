@@ -1,0 +1,131 @@
+.fondo{
+    -fx-background-color:#4f4f4f;
+}
+.menu{
+    -fx-background-color:#000000;
+}
+.menu .label{
+    -fx-text-fill: #FFFFFF;
+}
+
+.progress-bar> .track{
+-fx-text-box-border: #000000;
+-fx-contro-inner-background:#eff7f9;
+}
+.keyword {
+    -fx-fill: #8FCDFC;
+    -fx-font-weight: bold;
+}
+.normal{
+    -fx-fill: white;
+}
+.build_in_function{
+    -fx-fill: #ff6400;
+    -fx-font-weight: bold;
+}
+.semicolon {
+    -fx-fill: #00FC4B;
+    -fx-font-weight: bold;
+}
+.paren {
+    -fx-fill: yellow;
+    -fx-font-weight: bold;
+}
+.bracket {
+    -fx-fill: darkgreen;
+    -fx-font-weight: bold;
+}
+.brace {
+    -fx-fill: teal;
+    -fx-font-weight: bold;
+}
+.string {
+    -fx-fill: blue;
+}
+
+.comment {
+	-fx-fill: cadetblue;
+}
+
+.paragraph-box:has-caret {
+    -fx-background-color: #4f4f4f;
+}
+
+.consola{
+    -fx-background-color: #000000;
+    -fx-control-inner-background: #1C1C1C;
+    -fx-text-fill: #008728;
+    -fx-font-size:15px;
+    -fx-text-box-border: transparent;
+}
+.equal{
+-fx-fill: #C40000}
+
+.all{
+-fx-fill:#FFFFFF}
+
+.editor{
+    -fx-background-color: #4f4f4f;
+    -fx-control-inner-background: rgb(50,50,50);
+    -fx-text-fill: rgb(255,255,255);
+    -fx-text-color: #00FC4B;
+    -fx-font-size:15;
+}
+
+.output{
+     -fx-background-color: transparent;
+     -fx-control-inner-background: rgb(50,50,50);
+     -fx-text-fill: rgb(0,128,0);
+     -fx-font-size:15;
+}
+.tab-pane .tab-header-area .tab-header-background{
+    -fx-opacity: 0;
+}
+
+.tab-pane{
+    -fx-tab-min-width:20px;
+}
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+.tab-pane .tab{
+    -fx-background-color: #000000;
+}
+.tab-pane .tab:selected{
+    -fx-background-color: rgb(50,50,50);
+}
+
+.tab .tab-label{
+    -fx-alignmet: center;
+    -fx-text-fill: rgb(255,255,255);
+    -fx-text-size: 12px;
+    -fx-text-weight: bold;
+}
+
+.tab:selected .tab-label {
+    -fx-alignmet: center;
+    -fx-text-fill: rgb(255,255,255);
+}
+.tab-pane:top *.tab-header-area{
+    -fx-background-insets: 0, 0 0 1 0;
+    -fx-paddin: 0.41557em 0.166667em 0.0em 0.0em;
+}
+
+.botonRun{
+    -fx-background-radius: 5em;
+    -fx-min-width: 40px;
+    -fx-min-height: 40px;
+    -fx-max-width: 40px;
+    -fx-max-height: 40px;
+    -fx-backgroung-color: rgb(28,28,28);
+}
+/*ESTILOS PARA  LOS SUBMENUSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color: #000000;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 0 6 6 6, 0 5 5 5, 0 4 4 4;
+/*    -fx-padding: 0.666667em 0.083333em 0.666667em 0.083333em;  8 1 8 1 */
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; /* 4 1 8 1 */
+    fx-text-fill: #f5f5f5;
+}
